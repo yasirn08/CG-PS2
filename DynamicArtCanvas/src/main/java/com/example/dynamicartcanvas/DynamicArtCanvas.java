@@ -15,7 +15,7 @@ public class DynamicArtCanvas extends Application {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("DynamicArtCanvas.fxml"));
         Scene scene = new Scene(root);
-        stage.setTitle("PS_2_22_8");
+        stage.setTitle("Dynamic Art Canvas");
         stage.setScene(scene);
         stage.show();
     }
